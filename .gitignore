@@ -1,0 +1,19 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Données locales / secrets — JAMAIS versionnés
+config.json
+config.json.bak-v1
+profils/
+services.json
+pg_accounts.json
+known_hosts.json
+vault.meta
+*.enc
+
+# Packaging PyInstaller
+*.spec
+build/
+dist/
